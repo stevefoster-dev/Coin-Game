@@ -10,17 +10,3 @@ img {
   width: 50px;
   mix-blend-mode: multiply;
 }
-#status {
-  text-align: center;
-  font-size: 50pt;
-}
-#footer {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-span {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
