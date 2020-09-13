@@ -12,7 +12,7 @@ function isTouching(a, b) {
 
 const avatar = document.querySelector("#player");
 const coin = document.querySelector("#coin");
-const speed = 50;
+let speed = 25;
 
 window.addEventListener("keydown", function (e) {
   if (e.key.includes("Down")) {
@@ -33,7 +33,12 @@ window.addEventListener("keydown", function (e) {
   if (isTouching(avatar, coin)) {
     moveCoin();
   }
+  console.log(e.key);
 });
+
+// window.addEventListener("keydown", function (e) {
+//   console.log(e);
+// });
 
 const extractPos = (pos) => {
   if (!pos) return 100;
