@@ -1,5 +1,5 @@
 img {
-  width: 130px;
+  width: 90px;
   position: absolute;
   top: 100px;
   left: 100px;
@@ -7,7 +7,7 @@ img {
 }
 
 #coin {
-  height: 100px;
-  width: 170px;
+  height: 50px;
+  width: 40px;
   mix-blend-mode: multiply;
 }
